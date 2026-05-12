@@ -1,0 +1,67 @@
+#canvas {
+    position: relative; /* Importante para que el avatar se mueva dentro */
+    width: 800px; 
+    height: 500px; 
+    background-color: #ecf0f1; /* Gris más claro */
+    border: 5px solid #2c3e50; /* Borde oscuro para ver el tope */
+    overflow: hidden; /* Evita que el avatar se vea fuera del cuadro */
+    margin: 20px auto; /* Centra el canvas en la pantalla */
+}
+
+#avatar {
+    position: absolute;
+    width: 50px;
+    height: 110px;
+    transition: all 0.1s; /* Opcional: hace que el movimiento se vea suave */
+}
+
+
+
+/* Centrar el grupo de botones */
+.contenedor-botones {
+    text-align: center; /* Alineación horizontal */
+    margin-top: 20px;   /* Espacio respecto al canvas */
+}
+
+button {
+    width: 120px;          /* Más ancho */
+    height: 50px;          /* Más alto */
+    font-weight: bold;     /* Negrita (Página 39) */
+    font-size: 16px;       /* Texto más grande */
+    cursor: pointer;       /* Cambia el cursor al pasar (Página 28) */
+    margin: 5px;           /* Espacio entre botones (Box Model) */
+    background-color: #3498db; /* Color azul (opcional) */
+    color: white;
+    border: none;
+    border-radius: 5px;    /* Bordes redondeados */
+}
+
+/* Efecto al pasar el mouse (Cheatsheet pág 10) */
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Efecto de agrandado suave */
+}
+/* Centrar el grupo de botones */
+.contenedor-botones {
+    text-align: center; /* Alineación horizontal */
+    margin-top: 20px;   /* Espacio respecto al canvas */
+}
+
+button {
+    width: 120px;          /* Más ancho */
+    height: 50px;          /* Más alto */
+    font-weight: bold;     /* Negrita (Página 39) */
+    font-size: 16px;       /* Texto más grande */
+    cursor: pointer;       /* Cambia el cursor al pasar (Página 28) */
+    margin: 5px;           /* Espacio entre botones (Box Model) */
+    background-color: #3498db; /* Color azul (opcional) */
+    color: white;
+    border: none;
+    border-radius: 5px;    /* Bordes redondeados */
+}
+
+/* Efecto al pasar el mouse (Cheatsheet pág 10) */
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Efecto de agrandado suave */
+}

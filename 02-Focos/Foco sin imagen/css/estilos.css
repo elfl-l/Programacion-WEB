@@ -1,0 +1,25 @@
+/* Selector de tipo (Pág. 29) */
+body {
+    font-family: Arial; /* Tipografía (Pág. 37) */
+    text-align: center; /* Alineación horizontal (Pág. 39) */
+    background-color: #2c3e50; /* Color Hexadecimal (Pág. 34) */
+    color: white;
+}
+
+/* Selector de clase (Pág. 29) */
+.habitacion {
+    margin-top: 50px; /* Margen exterior (Box Model - Cheatsheet pág 9) */
+    padding: 20px;    /* Relleno interior (Box Model) */
+}
+
+/* Selector de ID (Pág. 29) */
+#foco {
+    width: 150px; /* Tamaño de la imagen */
+}
+
+button {
+    width: 120px;      /* Ancho del botón */
+    font-weight: bold; /* Texto en negrita (Pág. 39) */
+    padding: 10px;     /* Espacio dentro del botón */
+    cursor: pointer;   /* Cambia el mouse al pasar (Pág. 28) */
+}
