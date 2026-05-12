@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2c3e50; 
+}
+
+.calculadora {
+    background-color: #111111; 
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.8);
+    width: 320px;
+    border: 1px solid #333;
+}
+
+label {
+    color: #666;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px 0;
+    border: none;
+    background-color: #94b494;
+    color: #1a1a1a;
+    font-family: 'Courier New', monospace;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+.btn-clear {
+    background-color: #c62828 !important;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.caja-resultado {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #a8c6a8;
+    color: #000;
+    border-radius: 8px;
+    text-align: right;
+    font-family: 'Courier New', monospace;
+    font-size: 1.8em;
+}
+.calculadora h1 {
+    color: #ffffff; 
+    text-align: center;
+    font-size: 1.5em; 
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

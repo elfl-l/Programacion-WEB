@@ -6,19 +6,17 @@ window.onload = function() {
     const limiteX = 800 - 50;  
     const limiteY = 500 - 110; 
 
-    // --- FUNCIONES DE LOS BOTONES (Tus funciones originales) ---
     document.getElementById("btn-der").onclick = moverDerecha;
     document.getElementById("btn-izq").onclick = moverIzquierda;
     document.getElementById("btn-arr").onclick = moverArriba;
     document.getElementById("btn-aba").onclick = moverAbajo;
 
-    // --- LÓGICA DEL TECLADO (Nueva funcionalidad) ---
-    // Usamos onkeydown para detectar la tecla (Semana 03)
+
     window.onkeydown = function(event) {
-        // event.key nos dice qué tecla se presionó
+        
         switch (event.key) {
             case "ArrowRight":
-            case "d": // También opcional para letra D
+            case "d":
                 moverDerecha();
                 break;
             case "ArrowLeft":
@@ -36,11 +34,10 @@ window.onload = function() {
         }
     };
 
-    // Encapsulamos el movimiento en funciones para no repetir código
     function moverDerecha() {
-        if (posX < limiteX) { // Condicional if (Semana 03)
+        if (posX < limiteX) { 
             posX += 20;
-            avatar.style.left = posX + "px"; // Usamos left en vez de marginLeft
+            avatar.style.left = posX + "px";
         }
         avatar.src = "images/der.png";
     }
@@ -56,7 +53,7 @@ window.onload = function() {
     function moverArriba() {
         if (posY > 0) {
             posY -= 20;
-            avatar.style.top = posY + "px"; // Usamos top en vez de marginTop
+            avatar.style.top = posY + "px";
         }
         avatar.src = "images/atr.png";
     }

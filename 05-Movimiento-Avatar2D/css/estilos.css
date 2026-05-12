@@ -1,0 +1,62 @@
+#canvas {
+    position: relative;
+    width: 800px; 
+    height: 500px; 
+    background-color: #ecf0f1;
+    border: 5px solid #2c3e50;
+    overflow: hidden; 
+    margin: 20px auto;
+}
+
+#avatar {
+    position: absolute;
+    width: 50px;
+    height: 110px;
+    transition: all 0.1s;
+}
+
+.contenedor-botones {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+button {
+    width: 120px;  
+    height: 50px;   
+    font-weight: bold; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin: 5px;  
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;   
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.contenedor-botones {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+button {
+    width: 120px;         
+    height: 50px;        
+    font-weight: bold;   
+    font-size: 16px;     
+    cursor: pointer; 
+    margin: 5px; 
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
